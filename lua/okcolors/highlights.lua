@@ -186,7 +186,7 @@ function M.get_highlight_groups()
             Search            = { fg = palette.magenta, bold = true, underline = true },
             SignColumn        = { fg = palette.tx },
             SpecialKey        = { fg = palette.blue },
-            StatusLine        = { fg = palette.subtle, bold = true },
+            StatusLine        = { fg = palette.subtle, bg = palette.hilite_lo, bold = true },
             StatusLineNC      = { fg = palette.muted },
             StatusLineTerm    = { fg = palette.bg, bg = palette.green, bold = true },
             StatusLineTermNC  = { fg = palette.surface, bg = palette.green },
